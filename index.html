@@ -10,8 +10,10 @@
 </head>
 <body>
   <div id="app">
-    <input type="text" v-model="messaggio">
-    <h1>{{messaggio}}</h1>
+    <h1>{{title}}</h1>
+    <ul>
+      <li v-for="item in emailList">{{item}}</li>
+    </ul>
   </div>
   <script src="main.js"></script>
 </body>
